@@ -1,0 +1,23 @@
+.container {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+  background-color: #000;
+}
+
+.container h2 {
+  color: #fff;
+}
+
+.btn-open {
+  padding: 8px 25px;
+  background-color: #1e1e1e;
+  color: #fff;
+  font-weight: bold;
+  border: 1px solid #fff;
+  cursor: pointer;
+  border-radius: 5px;
+}
